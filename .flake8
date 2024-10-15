@@ -1,0 +1,7 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    cdk.out
+max-line-length = 160
+filename = .
