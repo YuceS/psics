@@ -80,7 +80,7 @@ class SimpleAppStack(Stack):
             peer=ec2.Peer.any_ipv4(), connection=ec2.Port.tcp(443)
         )
         my_ec2_security_group.add_egress_rule(
-            peer=self.db_security_group, connection=ec2.Port.tcp(3306)
+            peer=self.db_security_group, connection=ec2.Port.tcp(5432)
         )
 
         # EC2 Instance
