@@ -11,7 +11,7 @@ What the code does:
 Your Task
  - Act as a reviewer for a junior engineer’s pull request.
  - Spend ~15-30 minutes on the review.
- - Identify issues in the code (10 issues in total).
+ - Identify issues in the code (about 10 issues in total).
  - Reference line numbers and provide helpful feedback.
  - Do NOT rewrite the code from scratch. The goal is constructive feedback, not a complete rewrite. 
  
